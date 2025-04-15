@@ -1,51 +1,49 @@
 ![cyber](https://github.com/user-attachments/assets/4d5d7444-4148-4ae7-9182-5e96570099b4)
-🛡️ Cyber Security Breach Analysis
-📊 Project Overview
-This project presents an interactive dashboard analyzing cyber security breaches reported across the United States. Using Tableau, we explore breach trends, the number of individuals affected, types of breaches, and attack surfaces from which data was compromised. The data visualizations aim to provide insights into patterns that organizations and analysts can use to identify vulnerabilities and improve security strategies.
+# 🛡️ Cyber Security Breach Analysis
 
-🗂️ Dataset
-Source: U.S. Department of Health and Human Services (HHS) - Office for Civil Rights breach reports
+## 📊 Overview
 
-Attributes include:
+This interactive Tableau dashboard analyzes cyber security breaches across the United States. The analysis explores the number of individuals affected, breach types, attack surfaces, and trends over time. It aims to reveal insights into where breaches occur most often and how organizations can strengthen their defenses.
 
-Covered entity and business associate names
+## 🗂️ Dataset
 
-Number of individuals affected
+- **Source**: U.S. Department of Health and Human Services (HHS) – Office for Civil Rights breach reports
+- **Key Fields**:
+  - Covered Entity / Business Associate
+  - Individuals Affected
+  - Type of Breach
+  - Location of Breach (Attack Surface)
+  - State
+  - Year
 
-Type of breach (e.g., Theft, Hacking/IT Incident)
+## 📌 Key Insights
 
-Location of breached information (e.g., Paper, Laptop, Network Server)
+### 🗺️ Individuals Affected by State
+- **California, Texas, and New York** reported the highest number of individuals affected.
+- These states often host larger healthcare organizations and more complex infrastructures, making them more vulnerable.
 
-State and year of the incident
+### 📈 Breaches Over Time
+- Breaches increased sharply around **2009**, peaking in **2012–2013**.
+- Increased digitization and federal reporting requirements likely influenced this spike.
 
-📌 Key Insights
-1. Individuals Affected by State
-States such as California, Texas, and New York report the highest number of affected individuals.
+### 💥 Type of Breach
+- The most common breach type is **Theft**, followed by:
+  - **Unauthorized Access/Disclosure**
+  - **Hacking/IT Incidents**
 
-These states show significantly higher breach impact, which may correlate with larger healthcare systems and populations.
+### 💻 Attack Surface
+- The most compromised sources of data were:
+  - **Paper**
+  - **Laptops**
+  - **Desktop Computers**
+  - **Email**
+  - **Network Servers**
 
-2. Breach Trends Over Time
-A sharp rise in breach counts began around 2009, peaking in 2012–2013, followed by a gradual decline.
+## 📊 Dashboard Preview
 
-Increased reporting and digitization may explain the upward trend during this period.
+![Cyber Security Breach Dashboard](images/cyber.png)
 
-3. Type of Breaches
-Theft is the leading cause of breaches, followed by unauthorized access/disclosure and hacking/IT incidents.
+## 🛠️ Tools Used
 
-Combined breach types involving multiple vectors (e.g., Theft + Unauthorized Disclosure) are also significant.
-
-4. Attack Surfaces
-The most frequently breached surfaces include:
-
-Paper Records
-
-Laptops
-
-Desktop Computers
-
-Email and Network Servers also pose notable risk.
-
-🛠️ Tools & Technologies
-Tableau: Used for creating the interactive dashboard and visualizations
-
-Excel / CSV: For data cleaning and preprocessing
+- [Tableau](https://www.tableau.com/) for data visualization
+- Excel/CSV for preprocessing and cleanup
